@@ -3,7 +3,7 @@
 ---
 
 <div id="hero" class="hero">
-  <h1>The Random Book</h1>
+  <h1 class="title">The Random Book</h1>
 </div>
 
 <style>
@@ -20,6 +20,18 @@
     font-size: 4rem;
     animation: slideDown 1.5s ease-in-out;
   }
+
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2rem;
+      text-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .title {
+      font-size: 1.5rem;
+    }
 
   @keyframes slideDown {
     0% {
