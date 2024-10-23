@@ -1,7 +1,7 @@
 import Button from "./Button.jsx";
 import songs from "../utils/songs.json";
 import { useState } from "react";
-import "./random.css";
+import "../../public/random.css";
 
 const Random = () => {
   const [currentSong, setCurrentSong] = useState(null);
@@ -22,7 +22,7 @@ const Random = () => {
 
     const spinInterval = setInterval(() => {
       const song = getRandomSong();
-      setDisplayedSong(song); // Guardamos la canción entera para poder separar sus propiedades
+      setDisplayedSong(song);
       spinCount += 1;
 
       if (spinCount > 20) {
