@@ -1,0 +1,34 @@
+---
+
+---
+
+<div id="hero" class="hero">
+  <h1>The Random Book</h1>
+</div>
+
+<style>
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: RANDOM;
+  }
+
+  h1 {
+    font-size: 4rem;
+    animation: slideDown 1.5s ease-in-out;
+  }
+
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-100vh);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+</style>
