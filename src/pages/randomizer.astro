@@ -1,8 +1,11 @@
 ---
 import Random from "../components/Random";
+import Layout from "../layouts/Layout.astro";
 ---
 
-<Random client:load />
+<Layout title="Randomizer">
+  <Random transition:persist client:only="react" />
+</Layout>
 
 <style>
   .result-container {

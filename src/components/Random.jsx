@@ -1,7 +1,7 @@
 import Button from "./Button.jsx";
 import songs from "../utils/songs.json";
 import { useState } from "react";
-import "../../public/random.css";
+import "./random.css";
 
 const Random = () => {
   const [currentSong, setCurrentSong] = useState(null);
