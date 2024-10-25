@@ -4,11 +4,64 @@
 
 <div id="about" class="part2">
   <div class="card">
-    <p>The Random Book, el libro de canciones que estabas esperando.</p>
+    <p>
+      The Random Book es un libro de canciones que fue hecho con mucho amor y
+      tratando de capturar de la manera mas fiel posible cada canción. No te
+      vuelvas locx si no podés tocar todos los acordes.
+    </p>
+    <p>
+      Este libro surgió principalmente como una idea para cuendo se arman las
+      clásicas jams en una fiesta y se quedan todcando durante media hora un
+      groove en "LA DORICO" haciendo que todxs lxs demás se aburran. Además, no
+      toxs son musicxs, entonces, esta es una buena forma de integrar a todxs
+      sin que se vayan de tu fiesta.
+    </p>
+    <p>
+      Tiempo después también nos dimos cuenta que este libro podía servirnos a
+      nosotros mismos para dar clases o hablar de armonía desde un lado mas
+      funcional y real.
+    </p>
+    <p>¿Hay algún criterio en la elección de los temas? No.</p>
+    <img class="gif" src="randombook.gif" alt="" />
+    <p>
+      La idea es que sea lo mas random posible para intentar llenar los gustos
+      de todxs lxs personas.
+    </p>
+    <h4>Discalaimer</h4>
+    <p>
+      Ninguna canción de este libro nos pertenece y cada intérptete, compositor
+      y productor fue nombrado en cada tema.
+    </p>
+    <p>
+      Este libro es con fines educativos y lúdicos, si por alguna razón hay un
+      tema de tu autoría y no querés que aparezca acá, hacenoslo saber a <a
+        href="">ACÁ</a
+      >
+    </p>
+    <p>No nos demandes por favor, somos pobres y hippies.</p>
+    <div class="redes">
+      <a
+        target="_blank rel=noopener noopener noreferrer"
+        title="Instagram"
+        href="https://www.instagram.com/randombookargentina"
+        ><i class="bi bi-instagram"></i></a
+      >
+      <a
+        target="_blank rel=noopener noopener noreferrer"
+        title="Lista oficial de Spotify"
+        href="https://open.spotify.com/playlist/6nXT1kYPRzx0fmoURKFm7y?si=2d4415e0b5fa459e"
+        ><i class="bi bi-spotify"></i></a
+      >
+    </div>
   </div>
 </div>
 
 <style>
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
   .part2 {
     display: flex;
     flex-direction: column;
@@ -16,6 +69,34 @@
     justify-content: center;
     min-height: 100vh;
     font-family: "Space Grotesk", sans-serif;
+  }
+
+  .gif {
+    width: 40vw;
+  }
+
+  .redes {
+    display: flex;
+    gap: 4rem;
+    font-size: 4rem;
+  }
+
+  .bi-spotify {
+    color: #1db954;
+    transition: color 0.5s ease;
+  }
+
+  .bi-spotify:hover {
+    color: #1ed760;
+  }
+
+  .bi-instagram {
+    color: #e1306c;
+    transition: color 0.5s ease;
+  }
+
+  .bi-instagram:hover {
+    color: #f37ea5;
   }
 
   .card {
@@ -26,7 +107,7 @@
     width: 50%;
     padding: 2rem;
     border-radius: 0.5rem;
-    background-color: #f5f5f5;
+    backdrop-filter: blur(10px);
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
   }
 </style>

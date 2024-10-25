@@ -21,6 +21,17 @@
     animation: slideDown 1.5s ease-in-out;
   }
 
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-100vh);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
   @media (max-width: 768px) {
     .title {
       font-size: 2rem;
@@ -31,16 +42,6 @@
   @media (max-width: 480px) {
     .title {
       font-size: 1.5rem;
-    }
-
-  @keyframes slideDown {
-    0% {
-      transform: translateY(-100vh);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
     }
   }
 </style>
